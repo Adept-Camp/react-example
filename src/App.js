@@ -50,9 +50,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
+          <h1>Join the Bean Club</h1>
           {locked === "locked" && (
             <div onClick={this.checkout} style={{ cursor: "pointer" }}>
-              Unlock me!{" "}
+              Ahhh I'm sowing!{" "}
               <span aria-label="locked" role="img">
                 🔒
               </span>
