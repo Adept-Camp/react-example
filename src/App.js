@@ -51,9 +51,11 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <h1>Join the Bean Club</h1>
+          <h2>Ahhh I'm sowwwinnnngggg!</h2>
+          <p>Grants access to exclusive discord channel. More details tba.</p>
           {locked === "locked" && (
             <div onClick={this.checkout} style={{ cursor: "pointer" }}>
-              Ahhh I'm sowing!{" "}
+              Get Beanpass NFT 36 $BEAN{" "}
               <span aria-label="locked" role="img">
                 🔒
               </span>
